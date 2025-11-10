@@ -21,7 +21,6 @@ The data was sourced from the **Adventure Works database (SQL Server)** and proc
 | `Product`, `Product_Subcategory`, `Product_Category` | Hierarchical product data |
 | `Customer` | Customer demographic information |
 | `Territory` | Region and country-level sales mapping |
-| `Calendar` | Custom-built calendar table for time intelligence functions |
 
 ---
 
