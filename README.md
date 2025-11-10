@@ -1,6 +1,5 @@
-# Adventure-Works-Power-BI-Dashboard
 
-# 🚀 Adventure Works Power BI Dashboard
+# Adventure Works Power BI Dashboard
 
 ## 📖 Project Overview
 This Power BI project analyzes **Adventure Works' global sales performance** to uncover insights into revenue growth, customer behavior, and product profitability.  
