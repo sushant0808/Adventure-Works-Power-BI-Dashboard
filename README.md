@@ -54,8 +54,7 @@ From the AdventureWork database, we use SQL to select relevant columns, add flag
 
 Then I connected these views to the Power BI dashboard using the SQL Server Connector.
 
-I have exported the data in CSV files. You can find it over here ![CSV Files]([Data Cleaning]/[Data CSV Files]/)
-
+I have exported the data in CSV files. You can find it over here [CSV Files](https://github.com/sushant0808/Adventure-Works-Power-BI-Dashboard/tree/main/Data%20Cleaning/Data%20CSV%20Files)
 
 **Key Steps:**
 - Replaced missing categorical values with `'NA'`
@@ -106,7 +105,7 @@ Focuses on customer segmentation, engagement, and purchase behavior.
 
 ---
 
-### 🎨 User Experience Enhancements
+### User Experience Enhancements
 To ensure a seamless and intuitive experience:
 - Added a **Sidebar Navigation Panel** using *bookmarks* and *grouped elements*  
 - Sidebar includes:
@@ -117,7 +116,7 @@ To ensure a seamless and intuitive experience:
 
 ---
 
-## 🧮 Key DAX Measures
+## Key DAX Measures
 
 | Measure | Formula Description |
 |----------|---------------------|
@@ -130,21 +129,17 @@ To ensure a seamless and intuitive experience:
 
 ---
 
-## 🧭 Data Model (Star Schema)
+## Data Model (Star Schema)
 **Fact Table:** `Sales`  
 **Dimension Tables:** `Calendar`, `Product`, `Customer`, `Territory`, `Product_Subcategory`, `Product_Category`
 
-**Relationships:**
-- `Sales[ProductKey]` → `Product[ProductKey]`
-- `Sales[CustomerKey]` → `Customer[CustomerKey]`
-- `Sales[TerritoryKey]` → `Territory[TerritoryKey]`
-- `Calendar[Date]` → `Sales[OrderDate]`
+Entity Relationship Diagram - 
+<img width="937" height="531" alt="image" src="https://github.com/user-attachments/assets/91241103-829c-4b63-97ec-a6339354d574" />
 
-📌 *This structure ensures optimized performance and enables Time Intelligence functions.*
 
 ---
 
-## 🧰 Tools & Technologies Used
+## Tools & Technologies Used
 
 | Tool | Purpose |
 |------|----------|
@@ -167,20 +162,26 @@ To ensure a seamless and intuitive experience:
 
 ---
 
-## 🏁 Dashboard Preview
+## Dashboard Preview
 
-📸 **Executive Summary**
-![Executive Summary](Images/ExecutiveSummary.png)
+View the Power BI file [here]
 
-📸 **Product Detail Page**
-![Product Detail Page](Images/ProductDetail.png)
+View the dashboard exported PDF file [here]
 
-📸 **Customer Detail Page**
-![Customer Detail Page](Images/CustomerDetail.png)
+**Executive Summary**
+<img width="1337" height="742" alt="image" src="https://github.com/user-attachments/assets/23273318-e8e3-45cb-8920-18f35cf6a6b0" />
 
-*(Upload your 3 screenshots to an `Images` folder in your repo and keep the same filenames for links to work.)*
+
+**Product Detail Page**
+<img width="1308" height="737" alt="image" src="https://github.com/user-attachments/assets/4dc29b51-b513-47be-985c-ee4162deafc4" />
+
+
+**Customer Detail Page**
+<img width="1310" height="735" alt="image" src="https://github.com/user-attachments/assets/d944dfb2-307e-4eb1-a67f-c7c08f660683" />
+
+
+
 
 ---
 
-## 🗂️ Repository Structure
 
