@@ -1,14 +1,30 @@
-
-# Adventure Works Power BI Dashboard
+# 🚀 Adventure Works Power BI Dashboard
 
 ## 📖 Project Overview
-This Power BI project analyzes **Adventure Works' global sales performance** to uncover insights into revenue growth, customer behavior, and product profitability.  
-The dashboard was designed as a **portfolio project** to demonstrate strong data storytelling, DAX, and data modeling skills used in real-world business analytics.
+This Power BI dashboard provides a **comprehensive analysis of Adventure Works’ global sales performance**, helping stakeholders evaluate profitability, customer engagement, and regional performance at a glance.  
+It was built using SQL Server as the data source, where data was cleaned and transformed before modeling and visualization in Power BI.
+
+The project demonstrates expertise in:
+- **DAX-based KPI creation** (Revenue, Profit, Margin %, Customer, Orders)
+- **Data modeling using Star Schema**
+- **Interactive navigation features** (bookmarks, sidebar filters, drill-throughs)
+- **Analytical storytelling through visuals** and actionable insights
+
+The dashboard is divided into **three interactive tabs** — Executive Summary, Product Details, and Customer Details — each designed for a specific business audience.
 
 ---
 
 ## 🎯 Objective
-To help company leadership track **sales performance**, **customer engagement**, and **product profitability** through a single interactive report, supporting data-driven decision-making across regions and product lines.
+To deliver an **interactive and insight-driven business intelligence report** that empowers management to monitor:
+- Sales and profit performance across **regions, products, and time**
+- Product-level contribution and growth trends
+- Customer segmentation, activity, and engagement levels  
+
+The key goals were to:
+- Create a **management-friendly view** with KPIs, growth metrics, and trends  
+- Enable **drill-through analysis** from company-level insights to product-level details  
+- Visualize **customer behavior patterns** through demographics and purchase frequency  
+- Enhance user experience with **bookmark-based navigation and filter sidebar**
 
 ---
 
@@ -21,6 +37,7 @@ The data was sourced from the **Adventure Works database (SQL Server)** and proc
 | `Product`, `Product_Subcategory`, `Product_Category` | Hierarchical product data |
 | `Customer` | Customer demographic information |
 | `Territory` | Region and country-level sales mapping |
+| `Calendar` | Custom-built calendar table for time intelligence functions |
 
 ---
 
@@ -36,64 +53,55 @@ Data cleaning and transformation were performed in **SQL Server** before loading
 
 ---
 
-## 💡 Business Questions Answered
+## 📊 Dashboard Pages Summary
 
 ### 🏢 Executive Summary Page
-📊 *Purpose:* Gives leadership a snapshot of business performance.  
+A high-level view designed for senior management and executives to assess overall business health.
 
-**KPIs:**
-- Total Revenue  
-- Total Profit  
-- Total Orders  
-- Profit Margin %  
-- YoY Growth % for each metric  
-
-**Visuals:**
-- Monthly Revenue Trend  
-- Top 10 Products by Revenue & Profit  
-- Total Revenue by Region  
-
-**Insight Example:**  
-> Revenue grew **112.45% YoY**, driven by top-selling “Sport-100 Helmet” products across all regions.
+**Visuals & Features:**
+- KPI Cards: Total Revenue, Total Profit, Profit Margin %, Active Customers, Total Orders  
+- Revenue Trend Chart  
+- Revenue by Region  
+- Top 10 Products (Revenue, Orders, Profit Margin %)  
+- Monthly Revenue, Orders, and Margin KPIs  
+- Most Ordered & Least Ordered Product Cards  
+- Sidebar with Navigation Icons and Reset Filters  
 
 ---
 
-### 📦 Product Detail Page (Drill-through Page)
-📊 *Purpose:* Allows deeper exploration of a single product's performance.  
+### 📦 Product Detail Page (Drill-through Enabled)
+Enables users to analyze performance metrics for any selected product from the Executive Summary page.
 
-**KPIs:**
-- Total Revenue, Profit, Quantity, Regions, Customers  
-- YoY Revenue, Profit, and Quantity Growth  
-
-**Visuals:**
-- YoY Revenue and Order Trends  
-- Total Orders by Region (Map)  
-- Top 5 Customers by Revenue  
-
-**Feature:**  
-Built as a **drill-through page** from the “Top 10 Products” table in the Executive Summary.  
-
-**Insight Example:**  
-> The “Adjustable Race” product achieved **114% YoY Profit Growth**, with steady expansion across **10 regions**.
+**Visuals & Features:**
+- KPI Cards: Total Profit, Total Quantity Sold, Total Regions Sold  
+- Trend Line Chart with parameter selection for Revenue, Profit, Orders, or Product Margin  
+- YoY Growth Bar Charts (Revenue and Orders)  
+- Map: Total Orders by Region  
+- Dynamic Drill-through Navigation from Executive Summary  
 
 ---
 
 ### 👥 Customer Detail Page
-📊 *Purpose:* Analyzes customer-level performance and demographics.  
+Focuses on customer segmentation, engagement, and purchase behavior.
 
-**KPIs:**
-- Total Unique Customers  
-- Revenue per Customer  
-- Average Orders per Month  
-- Last Purchase Date  
+**Visuals & Features:**
+- KPI Cards: Unique Customers, Revenue per Customer, Last Purchase Date, Avg. Orders per Month  
+- Top Customer Card (with Orders & Revenue)  
+- Top 100 Customers by Orders and Revenue  
+- Trend Chart with Parameter Selection (“Total Customers” or “Revenue per Customer”)  
+- Total Orders by Year  
+- Pie Charts: Orders by Income Level, Occupation, Gender  
 
-**Visuals:**
-- Top 100 Customers by Revenue & Orders  
-- Orders by Gender, Occupation, and Income Level  
-- Revenue per Customer Trend (YoY)  
+---
 
-**Insight Example:**  
-> The “Professional” segment contributed **43% of total orders**, while **High-income customers** had the highest average spend.
+### 🎨 User Experience Enhancements
+To ensure a seamless and intuitive experience:
+- Added a **Sidebar Navigation Panel** using *bookmarks* and *grouped elements*  
+- Sidebar includes:
+  - Page navigation icons (Executive Summary, Product, Customer)
+  - Filter icon to expand/collapse filters panel  
+  - Reset Filters button to clear all active slicers  
+- Improved accessibility and dashboard flow by grouping and layering elements for smooth transitions  
 
 ---
 
@@ -135,13 +143,15 @@ Built as a **drill-through page** from the “Top 10 Products” table in the Ex
 
 ---
 
-## 📊 Key Insights & Learnings
+## 💡 Key Insights & Learnings
 
-✅ Developed **dynamic measures** with parameters for Year, Month, and Quarter selection.  
-✅ Built **drill-through navigation** for product-level deep dives.  
-✅ Used **conditional formatting** for highlighting YoY growth and profit changes.  
-✅ Implemented **tooltip pages** for interactive user experience.  
-✅ Designed with **executive-friendly layout** for clear decision-making.
+✅ Developed **dynamic DAX measures** to calculate KPIs such as YoY Growth, Profit Margin %, and Revenue per Customer.  
+✅ Designed a **Star Schema model** ensuring optimized performance for large datasets.  
+✅ Implemented **Drill-through navigation** from product-level summaries to detail-level views.  
+✅ Added **interactive sidebar navigation** with bookmarks for seamless tab transitions.  
+✅ Built **parameterized visuals** to switch between different metrics (e.g., Revenue, Orders, Profit).  
+✅ Used **tooltip pages** and **conditional formatting** to improve interactivity and readability.  
+✅ Enhanced report usability by grouping elements and applying **Reset Filters** and **Toggle Filter Panel** buttons.  
 
 ---
 
