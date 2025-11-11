@@ -167,19 +167,19 @@ Entity Relationship Diagram -
 
 View the Power BI file [here](https://github.com/sushant0808/Adventure-Works-Power-BI-Dashboard/blob/main/Adventure%20Works%20Dashboard%20PDF.pdf)
 
-View the dashboard exported PDF file [here]
+View the dashboard exported PDF file [here](https://github.com/sushant0808/Adventure-Works-Power-BI-Dashboard/blob/main/Adventure%20Works%20Power%20BI%20Dashboard.pbix)
 
 **Executive Summary**
 <img width="1337" height="742" alt="image" src="https://github.com/user-attachments/assets/23273318-e8e3-45cb-8920-18f35cf6a6b0" />
-
+<br><br>
 
 **Product Detail Page**
 <img width="1308" height="737" alt="image" src="https://github.com/user-attachments/assets/4dc29b51-b513-47be-985c-ee4162deafc4" />
-
+<br><br>
 
 **Customer Detail Page**
 <img width="1310" height="735" alt="image" src="https://github.com/user-attachments/assets/d944dfb2-307e-4eb1-a67f-c7c08f660683" />
-
+<br><br>
 
 
 
