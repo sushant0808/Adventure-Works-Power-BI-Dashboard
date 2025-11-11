@@ -165,7 +165,7 @@ Entity Relationship Diagram -
 
 ## Dashboard Preview
 
-View the Power BI file [here]
+View the Power BI file [here](https://github.com/sushant0808/Adventure-Works-Power-BI-Dashboard/blob/main/Adventure%20Works%20Dashboard%20PDF.pdf)
 
 View the dashboard exported PDF file [here]
 
