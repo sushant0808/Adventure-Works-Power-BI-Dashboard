@@ -41,10 +41,11 @@ The data was sourced from the **Adventure Works database (SQL Server)** and proc
 ---
 
 ## ⚙️ Data Preparation & Cleaning
-Data cleaning, Data Visualization was performed in **SQL Server Management Studio** & **Power BI**.  
+Data cleaning and visualization were performed in **SQL Server Management Studio (SSMS) and Power BI**.
 
-From the AdventureWork database, we use SQL to select relevant columns, add flag columns and generate below Views:
+Using the AdventureWorks database, SQL scripts were used to select relevant columns, create flag columns, and generate cleaned views for integration with Power BI.
 
+**Views created**
 1. vw_Customer
 2. vw_Product
 3. vw_Product_Category
@@ -52,9 +53,9 @@ From the AdventureWork database, we use SQL to select relevant columns, add flag
 5. vw_Sales
 6. vw_Territory
 
-Then I connected these views to the Power BI dashboard using the SQL Server Connector.
+These SQL views were then connected to Power BI using the SQL Server Connector.
 
-I have exported the data in CSV files. You can find it over here [CSV Files](https://github.com/sushant0808/Adventure-Works-Power-BI-Dashboard/tree/main/Data%20Cleaning/Data%20CSV%20Files)
+For convenience, all the datasets have been exported as CSV files and are available here: [CSV Files](https://github.com/sushant0808/Adventure-Works-Power-BI-Dashboard/tree/main/Data%20Cleaning/Data%20CSV%20Files)
 
 **Key Steps:**
 - Replaced missing categorical values with `'NA'`
@@ -64,9 +65,9 @@ I have exported the data in CSV files. You can find it over here [CSV Files](htt
 
 ---
 
-## 📊 Dashboard Pages Summary
+## Dashboard Pages Summary
 
-### 🏢 Executive Summary Page
+### Executive Summary Page
 A high-level view designed for senior management and executives to assess overall business health.
 
 **Visuals & Features:**
@@ -80,7 +81,7 @@ A high-level view designed for senior management and executives to assess overal
 
 ---
 
-### 📦 Product Detail Page (Drill-through Enabled)
+### Product Detail Page (Drill-through Enabled)
 Enables users to analyze performance metrics for any selected product from the Executive Summary page.
 
 **Visuals & Features:**
@@ -92,7 +93,7 @@ Enables users to analyze performance metrics for any selected product from the E
 
 ---
 
-### 👥 Customer Detail Page
+### Customer Detail Page
 Focuses on customer segmentation, engagement, and purchase behavior.
 
 **Visuals & Features:**
