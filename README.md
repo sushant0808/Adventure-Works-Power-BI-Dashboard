@@ -37,18 +37,30 @@ The data was sourced from the **Adventure Works database (SQL Server)** and proc
 | `Product`, `Product_Subcategory`, `Product_Category` | Hierarchical product data |
 | `Customer` | Customer demographic information |
 | `Territory` | Region and country-level sales mapping |
-| `Calendar` | Custom-built calendar table for time intelligence functions |
 
 ---
 
-## ⚙️ Data Preparation
-Data cleaning and transformation were performed in **SQL Server** before loading into Power BI.  
+## ⚙️ Data Preparation & Cleaning
+Data cleaning, Data Visualization was performed in **SQL Server Management Studio** & **Power BI**.  
+
+From the AdventureWork database, we use SQL to select relevant columns, add flag columns and generate below Views:
+
+1. vw_Customer
+2. vw_Product
+3. vw_Product_Category
+4. vw_Product_Subcategory
+5. vw_Sales
+6. vw_Territory
+
+Then I connected these views to the Power BI dashboard using the SQL Server Connector.
+
+I have exported the data in CSV files. You can find it over here ![CSV Files]([Data Cleaning]/[Data CSV Files]/)
+
 
 **Key Steps:**
 - Replaced missing categorical values with `'NA'`
-- Created a **dynamic Calendar Table** in Power BI (based on `MAX(Sales[OrderDate])`)
-- Added flags for missing product pricing data
-- Joined tables using a **Star Schema** data model (Sales as fact, others as dimension)
+- Added flag columns for missing product pricing data
+- Joined tables using a **Star Schema** data model (Sales as fact, others as dimension) in Power BI
 - Built DAX measures for core KPIs like Total Revenue, Profit, Orders, and YoY%
 
 ---
