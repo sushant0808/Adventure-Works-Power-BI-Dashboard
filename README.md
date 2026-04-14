@@ -1,8 +1,7 @@
 # Adventure Works Power BI Dashboard
 
 ## 📖 Project Overview
-This Power BI dashboard provides a **comprehensive analysis of Adventure Works’ global sales performance**, helping stakeholders evaluate profitability, customer engagement, and regional performance at a glance.  
-It was built using SQL Server as the data source, where data was cleaned and transformed before modeling and visualization in Power BI.
+Built an interactive Power BI dashboard using the Adventure Works dataset to analyze sales performance, customer behavior, and product trends. The dashboard enables stakeholders to track KPIs, identify trends, and make data-driven decisions.
 
 The project demonstrates expertise in:
 - **DAX-based KPI creation** (Revenue, Profit, Margin %, Customer, Orders)
