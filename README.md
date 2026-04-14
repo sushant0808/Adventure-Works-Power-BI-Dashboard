@@ -157,8 +157,6 @@ Entity Relationship Diagram -
 
 ---
 
-
----
 ## Business Impact:
 - Enabled quick identification of top-performing products
 - Improved visibility into customer behavior trends
