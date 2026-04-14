@@ -26,12 +26,6 @@ To deliver an **interactive and insight-driven business intelligence report** th
 - Product-level contribution and growth trends
 - Customer segmentation, activity, and engagement levels  
 
-The key goals were to:
-- Create a **management-friendly view** with KPIs, growth metrics, and trends  
-- Enable **drill-through analysis** from company-level insights to product-level details  
-- Visualize **customer behavior patterns** through demographics and purchase frequency  
-- Enhance user experience with **bookmark-based navigation and filter sidebar**
-
 ---
 
 ## 🧩 Dataset Details
