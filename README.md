@@ -10,12 +10,6 @@ Built an interactive Power BI dashboard using the Adventure Works dataset to ana
 - Customer Count
 - Revenue Growth
 
-The project demonstrates expertise in:
-- **DAX-based KPI creation** (Revenue, Profit, Margin %, Customer, Orders)
-- **Data modeling using Star Schema**
-- **Interactive navigation features** (bookmarks, sidebar filters, drill-throughs)
-- **Analytical storytelling through visuals** and actionable insights
-
 The dashboard is divided into **three interactive tabs** — Executive Summary, Product Details, and Customer Details — each designed for a specific business audience.
 
 ---
@@ -160,6 +154,16 @@ Entity Relationship Diagram -
 ✅ Built **parameterized visuals** to switch between different metrics (e.g., Revenue, Orders, Profit).  
 ✅ Used **tooltip pages** and **conditional formatting** to improve interactivity and readability.  
 ✅ Enhanced report usability by grouping elements and applying **Reset Filters** and **Toggle Filter Panel** buttons.  
+
+---
+
+
+---
+## Business Impact:
+- Enabled quick identification of top-performing products
+- Improved visibility into customer behavior trends
+- Supported data-driven decision-making through interactive dashboards
+
 
 ---
 
