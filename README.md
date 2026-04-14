@@ -3,6 +3,13 @@
 ## 📖 Project Overview
 Built an interactive Power BI dashboard using the Adventure Works dataset to analyze sales performance, customer behavior, and product trends. The dashboard enables stakeholders to track KPIs, identify trends, and make data-driven decisions.
 
+## Key KPI's
+- Total Sales
+- Total Orders
+- Profit Margin
+- Customer Count
+- Revenue Growth
+
 The project demonstrates expertise in:
 - **DAX-based KPI creation** (Revenue, Profit, Margin %, Customer, Orders)
 - **Data modeling using Star Schema**
@@ -64,7 +71,7 @@ For convenience, all the datasets have been exported as CSV files and are availa
 
 ---
 
-## Dashboard Pages Summary
+## Dashboard Overview
 
 ### Executive Summary Page
 A high-level view designed for senior management and executives to assess overall business health.
